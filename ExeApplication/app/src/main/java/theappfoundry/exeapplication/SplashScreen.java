@@ -14,31 +14,24 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState); // calling superclasse's onCreate method?
         setContentView(R.layout.activity_splash_screen); // inherited method. Sets view from xml
 
-
-        Thread timer = new Thread(){
+        Thread timer = new Thread() {
 
             @Override
             public void run() {
-                try{
+                try {
                     sleep(2000);
                     Intent goToLogin = new Intent(getBaseContext(), LoginActivity.class);
                     startActivity(goToLogin);
                 }
-                catch(InterruptedException e){
+                catch(InterruptedException e) {
                     e.printStackTrace();
                 }
-                finally{
+                finally {
                     finish();
                 }
             }
         };
+
         timer.start();
-
-
-
-
-
-
-
     }
 }

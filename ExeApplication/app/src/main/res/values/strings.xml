@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExeApplication</string>
+    <string name="splash_welcome">Texas State University\nEXE</string>
+    <string name="exe">EXE\nSchool</string>
+    <string name="school_verbose">Texas State University</string>
+    <string name="school">Texas State</string>
 </resources>

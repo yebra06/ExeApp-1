@@ -1,16 +1,18 @@
-package theappfoundry.exeapplication; // package name (where all the classes are) theappfoundry/exeapplication
+package theappfoundry.exeapplication.activities; // package name (where all the classes are) theappfoundry/exeapplication
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import theappfoundry.exeapplication.R;
+
 /**
- * SplashScreen
+ * SplashScreenActivity
  *
- * SplashScreen is a derived/subclass of the SuperClass/Parent Class AppCompatActivity.
- * SplashScreen inherits all methods(public) and (all)instance variables from AppCompatActivity.
+ * SplashScreenActivity is a derived/subclass of the SuperClass/Parent Class AppCompatActivity.
+ * SplashScreenActivity inherits all methods(public) and (all)instance variables from AppCompatActivity.
  */
-public class SplashScreen extends AppCompatActivity {
+public class SplashScreenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
